@@ -21,7 +21,7 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
      
      
-class PySummarize:    
+class PySummarizer:    
     def __init__(self, min_cut=0.1, max_cut=0.9, max_redundancy=0.4):
         """ Initialize a Summarizer object"""
         

@@ -6,7 +6,7 @@ Import the PySummarize class:
 ```python
    from pysummarize import PySummarize
 ```
-Instantiate a PySummarize object and Use the 'summarize' method to produce a summary:  
+Instantiate a PySummarize object and use the 'summarize' method to produce a summary:  
 ```python
    text = "This is the text you want to summarize..."
    ps = PySummarize() 

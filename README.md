@@ -1,9 +1,10 @@
 # PySummarize
-PySummarize is a python library that performs automatic text summarization using word frequency and sentence position.
+PySummarize is a python library that allows you to perform automatic text summarization using word frequency and sentence position.
 
+# Usage
 Import the class PySummarize:
 ```python
-   from PySummarize import PySummarize
+   from pysummarize import PySummarize
 ```
 Instantiate a PySummarize object and Use the 'summarize' method to produce a summary. Optionally, you can specify the max length of the summary in no. of words, passing it as the second argument of 'summarize'. The default max length is 150 words. 
 ```python
@@ -14,5 +15,8 @@ Instantiate a PySummarize object and Use the 'summarize' method to produce a sum
 ```
 
 # Installation
-
+To install PySummarize, use the following code:
+```python
+   pip install pysummarize
+```
 

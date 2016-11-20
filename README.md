@@ -4,7 +4,7 @@ PySummarize is a python library that allows you to perform automatic text summar
 # Usage
 Import the PySummarize class:
 ```python
-   from pysummarize import PySummarize
+   from pysummarize.summarizer import PySummarize
 ```
 Instantiate a PySummarize object and use the 'summarize' method to produce a summary:  
 ```python

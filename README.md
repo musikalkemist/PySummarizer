@@ -23,7 +23,7 @@ Optionally, you can specify the max length of the summary in no. of words passin
 # Installation
 To install PySummarizer, use the following code:
 ```python
-   pip install pysummarize
+   pip install pysummarizer
 ```
 # Dependencies
 You need to have the NLTK library installed to use PySummarizer.

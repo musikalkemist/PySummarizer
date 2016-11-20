@@ -19,4 +19,5 @@ To install PySummarize, use the following code:
 ```python
    pip install pysummarize
 ```
-
+# Dependencies
+You need to have the NLTK library installed to use PySummarize.

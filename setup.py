@@ -8,7 +8,7 @@ setup(
   author = 'Valerio Velardo',
   author_email = 'velardovalerio@gmail.com',
   url = 'https://github.com/musikalkemist/PySummarize', 
-  download_url = 'https://github.com/musikalkemist/PySummarize/tarball/0.1.3', 
+  download_url = 'https://github.com/musikalkemist/PySummarize/tarball/0.1.4', 
   keywords = ['summarization', 'nlp', 'automatic summarization'], 
   classifiers = [],
 )

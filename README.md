@@ -2,7 +2,7 @@
 PySummarize is a python library that allows you to perform automatic text summarization using word frequency and sentence position.
 
 # Usage
-Import the class PySummarize:
+Import the PySummarize class:
 ```python
    from pysummarize import PySummarize
 ```

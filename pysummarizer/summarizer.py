@@ -104,11 +104,11 @@ class PySummarizer:
                     summary += self._sents[sent_id]
                     sents_id_chosen.append(sent_id)
                 elif i > 0 and self._redundancy_ok(i, sents_id_chosen):
-                    summary += self._sents[sent_id]
+                    summary = summary + self._sents[sent_id] + " "
                     sents_id_chosen.append(sent_id)
                 else:
                     continue
-        return summary        
+        return summary[:-1]        
         
     def _redundancy_ok(self, no_iterations, sents_id_chosen):
         """ Check if sentence is too similar to previous sentences in 

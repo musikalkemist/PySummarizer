@@ -12,6 +12,7 @@ Output 'summarize':
     summary (string)
 """
 
+import operator
 from math import log
 from string import punctuation
 from collections import defaultdict

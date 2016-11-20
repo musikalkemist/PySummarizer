@@ -1,14 +1,14 @@
 from distutils.core import setup
 
 setup(
-  name = 'pysummarize',
-  packages = ['pysummarize'], 
+  name = 'pysummarizer',
+  packages = ['pysummarizer'], 
   version = '0.1',
-  description = 'PySummarize is a library for automatic text summarization',
+  description = 'Library for automatic text summarization',
   author = 'Valerio Velardo',
   author_email = 'velardovalerio@gmail.com',
-  url = 'https://github.com/musikalkemist/PySummarize', 
-  download_url = 'https://github.com/musikalkemist/PySummarize/tarball/0.1.5', 
+  url = 'https://github.com/musikalkemist/PySummarizer', 
+  download_url = 'https://github.com/musikalkemist/PySummarizer/tarball/0.1', 
   keywords = ['summarization', 'nlp', 'automatic summarization', 'information retrieval'], 
   classifiers = [],
 )

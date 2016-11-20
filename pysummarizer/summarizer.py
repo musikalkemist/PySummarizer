@@ -96,12 +96,12 @@ class PySummarizer:
             summary_check = summary
             sent_id = self._ranking[i][0]
             summary_check += self._sents[sent_id]
-            if len(summary_check.split()) >= self._max_words:
+            if len(summary_check.split()) >= self._max_words and i > 0:
                 break
             else:
                 # check for redundancy of new sentence
                 if i == 0:
-                    summary += self._sents[sent_id]
+                    summary += self._sents[sent_id] + " "
                     sents_id_chosen.append(sent_id)
                 elif i > 0 and self._redundancy_ok(i, sents_id_chosen):
                     summary = summary + self._sents[sent_id] + " "

@@ -9,8 +9,7 @@ Import the PySummarize class:
 Instantiate a PySummarize object and Use the 'summarize' method to produce a summary:  
 ```python
    text = "This is the text you want to summarize..."
-   ps = PySummarize()
-   # create a summary which is at most 100 words long  
+   ps = PySummarize() 
    summary = ps.summarize(text) 
 ```
 Optionally, you can specify the max length of the summary in no. of words passing it as the second argument of 'summarize' (default max length = 150 words): 
